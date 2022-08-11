@@ -758,7 +758,7 @@
       span.r-1.fst-italic.fw-bold Time expressions - past. / 
       | (Expresiones de tiempo - pasado)
     SlyderF.mb-5(columnas="col-lg-6 col-xl-3")
-      .tarjeta.color-primario.p-4.h-100
+      .tarjeta.color-secundario.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/35.svg' alt='AvatarTop')
@@ -774,7 +774,7 @@
               span.r-1.fst-italic  I don’t get out because this is a 
                 span.r-2 cloudy 
                 | day.
-      .tarjeta.color-primario.p-4.h-100
+      .tarjeta.color-secundario.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/36.svg' alt='AvatarTop')
@@ -789,7 +789,7 @@
             p.text-center
               span.r-1.fst-italic Today 
                 span.r-2  it’s raining cats and dogs.
-      .tarjeta.color-primario.p-4.h-100
+      .tarjeta.color-secundario.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/37.svg' alt='AvatarTop')
@@ -805,7 +805,7 @@
               span.r-1.fst-italic The 
                 span.r-2  fog 
                 | approaches the town.
-      .tarjeta.color-primario.p-4.h-100
+      .tarjeta.color-secundario.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/38.svg' alt='AvatarTop')
@@ -820,7 +820,7 @@
             p.text-center
               span.r-1.fst-italic  The atmosphere is
                 span.r-2  foggy.
-      .tarjeta.color-primario.p-4.h-100
+      .tarjeta.color-secundario.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/39.svg' alt='AvatarTop')
@@ -835,7 +835,7 @@
             p.text-center
               span.r-1.fst-italic This is a   
                 span.r-2 hot day. 
-      .tarjeta.color-primario.p-4.h-100
+      .tarjeta.color-secundario.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/40.svg' alt='AvatarTop')
@@ -849,7 +849,7 @@
             Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/17.mp3')").m-auto.mb-2
             p.text-center
               span.r-1.fst-italic In this place, the wind blows all day. 
-      .tarjeta.color-primario.p-4.h-100
+      .tarjeta.color-secundario.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/41.svg' alt='AvatarTop')
@@ -863,7 +863,7 @@
             Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/17.mp3')").m-auto.mb-2
             p.text-center
               span.r-1.fst-italic Looks like this will be a showery day.
-      .tarjeta.color-primario.p-4.h-100
+      .tarjeta.color-secundario.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/42.svg' alt='AvatarTop')
@@ -877,7 +877,7 @@
             Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/17.mp3')").m-auto.mb-2
             p.text-center
               span.r-1.fst-italic Karla doesn’t like humid days.
-      .tarjeta.color-primario.p-4.h-100
+      .tarjeta.color-secundario.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/43.svg' alt='AvatarTop')
@@ -891,7 +891,7 @@
             Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/17.mp3')").m-auto.mb-2
             p.text-center
               span.r-1.fst-italic  The child is warm because it is an icy day.
-      .tarjeta.color-primario.p-4.h-100
+      .tarjeta.color-secundario.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/44.svg' alt='AvatarTop')
@@ -905,7 +905,7 @@
             Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/17.mp3')").m-auto.mb-2
             p.text-center
               span.r-1.fst-italic In this window you can feel a gentle breeze.
-      .tarjeta.color-primario.p-4.h-100
+      .tarjeta.color-secundario.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/45.svg' alt='AvatarTop')
@@ -919,7 +919,7 @@
             Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/17.mp3')").m-auto.mb-2
             p.text-center
               span.r-1.fst-italic A strong wind is blowing on the mountain. 
-      .tarjeta.color-primario.p-4.h-100
+      .tarjeta.color-secundario.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/46.svg' alt='AvatarTop')
@@ -933,7 +933,7 @@
             Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/17.mp3')").m-auto.mb-2
             p.text-center
               span.r-1.fst-italic After the gale came a great calm in the town. 
-      .tarjeta.color-primario.p-4.h-100
+      .tarjeta.color-secundario.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/47.svg' alt='AvatarTop')
@@ -947,7 +947,7 @@
             Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/17.mp3')").m-auto.mb-2
             p.text-center
               span.r-1.fst-italic The hurricane hit the island. 
-      .tarjeta.color-primario.p-4.h-100
+      .tarjeta.color-secundario.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/48.svg' alt='AvatarTop')
@@ -961,7 +961,7 @@
             Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/17.mp3')").m-auto.mb-2
             p.text-center
               span.r-1.fst-italic In this country there are the four seasons of the year.  
-      .tarjeta.color-primario.p-4.h-100
+      .tarjeta.color-secundario.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/49.svg' alt='AvatarTop')
@@ -975,7 +975,7 @@
             Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/17.mp3')").m-auto.mb-2
             p.text-center
               span.r-1.fst-italic  In spring, the plants bloom.
-      .tarjeta.color-primario.p-4.h-100
+      .tarjeta.color-secundario.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/50.svg' alt='AvatarTop')
@@ -989,7 +989,7 @@
             Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/17.mp3')").m-auto.mb-2
             p.text-center
               span.r-1.fst-italic In summer, it is very hot. 
-      .tarjeta.color-primario.p-4.h-100
+      .tarjeta.color-secundario.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/51.svg' alt='AvatarTop')
@@ -1003,7 +1003,7 @@
             Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/17.mp3')").m-auto.mb-2
             p.text-center
               span.r-1.fst-italic In winter, a lot of snow falls in this city.
-      .tarjeta.color-primario.p-4.h-100
+      .tarjeta.color-secundario.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/52.svg' alt='AvatarTop')

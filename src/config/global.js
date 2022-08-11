@@ -34,28 +34,28 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: '<em>Simple present tense</em> (Tiempo presente simple)',
+        titulo: 'Holidays and weather (Las vacaciones y el clima)',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
             titulo:
-              '<em>Simple present tense function</em> (Función del tiempo presente simple)',
+              '<em>Time expressions - past</em>  (Expresiones de tiempo - pasado)',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
             titulo:
-              '<em>Simple present tense form</em> (Forma del tiempo presente simple)',
+              '<em>Time expressions - present</em> (Expresiones de tiempo - presente)',
             hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
             titulo:
-              '<em>Simple present tense pronunciation</em> (Pronunciación del tiempo presente simple)',
+              '<em>Time expressions - future</em> (Expresiones de tiempo - futuro)',
             hash: 't_1_3',
           },
         ],
@@ -65,20 +65,55 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: '<em>Qualifying adjectives</em> (Adjetivos calificativos)',
+        titulo: 'Conditionals (Condicionales)',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: '<em>Comparative adjectives</em> (Adjetivos comparativos)',
+            titulo:
+              '<em>Structure of the zero (0) conditional</em> (Estructura del zero (0) condicional)',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: '<em>Superlative adjectives</em> (Adjetivos superlativos)',
+            numero: '2.2',
+            titulo:
+              '<em>Structure of the first (I) conditional</em> (Estructura del primer (I) condicional)',
             hash: 't_2_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema3',
+        icono: 'far fa-file-alt',
+        numero: '3',
+        titulo: '<em>Verb tense: future</em> (Tiempo verbal: futuro)',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: '<em>Use of "will"</em> (Uso de “will”)',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: ' <em>Use of "be going to"</em> (Uso de “be going to”)',
+            hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: '<em>Formulation of plans</em> (Formulación de planes)',
+            hash: 't_3_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.4',
+            titulo: '<em>Making predictions</em> (Realización de predicciones)',
+            hash: 't_3_4',
           },
         ],
       },
@@ -125,61 +160,64 @@ export default {
   },
   complementario: [
     {
-      tema:
-        'Simple present tense function (Función del tiempo presente simple)',
+      tema: 'Conditionals (Condicionales)',
       referencia:
-        'McLellan, C. (2019). ¿Cómo y cuándo se usa el "presente simple" en inglés? British Council España. ',
+        'Equipo académico. (2021). Usa los conditionals más allá del equivalente al hubiera. British Council México. ',
       tipo: 'Artículo',
-      link: 'https://www.britishcouncil.es/blog/presente-simple',
+      link: 'https://www.britishcouncil.org.mx/blog/conditionals',
     },
     {
-      tema: 'Comparative adjectives (Adjetivos comparativos)',
+      tema: 'Use of "will" (Uso de “will”)',
       referencia:
-        'Ochoa, F. [Inglés Fácil]. (s. f.). 4 Reglas básicas del COMPARATIVO en inglés – Muy bien explicado | Clases inglés [Video]. YouTube.',
+        'Rodríguez, K. (2019). Futuro simple en inglés con WILL [Video]. YouTube.',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=9KIiaLupHuA',
+      link: 'https://youtu.be/BWDYnpaqGf8',
     },
     {
-      tema: 'Qualifying adjectives (Adjetivos calificativos)',
+      tema: 'Use of "be going to" (Uso de “be going to”)',
       referencia:
-        'Boyd, C. (2018). ¿Cómo formar comparativos y superlativos en inglés? British Council España.',
-      tipo: 'Artículo',
-      link:
-        'https://www.britishcouncil.es/blog/como-formar-comparativos-superlativos-ingles',
+        'Inglés Fácil - ALEMA. (2019). Futuro Simple En Ingles Usando Be Going To - Oraciones Con Simple Future Tense Lección # 32 [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://youtu.be/QCut75JdZss',
     },
   ],
   glosario: [
     {
-      termino: '<em>Adjectives</em>/Adjetivos',
+      termino: '<em>Conditionals</em> / Condicionales',
       significado:
-        'son palabras variables que indican características de las personas, los animales y las cosas. Básicamente, se utilizan para describir los sustantivos.',
+        'los condicionales son un tipo de estructuras gramaticales que se utilizan cuando se quiere plantear escenarios reales e imaginarios, por tanto, sirven para expresar planes, deseos, sueños o propósitos.',
     },
     {
-      termino: '<em>Comparatives</em>/Comparativos',
+      termino: '<em>Holiday</em> / Vacaciones',
       significado:
-        'son palabras que se utilizan para expresar una comparación de cualidades entre dos elementos.',
+        'descanso temporal de una actividad habitual, principalmente del trabajo remunerado o de los estudios.',
     },
     {
-      termino: '<em>Superlatives</em>/Superlativos',
-      significado:
-        'son aquellos adjetivos que sirven para indicar la descripción de un objeto, persona, animal o lugar que se ubica en el extremo superior o inferior de una determinada cualidad.',
+      termino: '<em>Prediction</em> / Predicción',
+      significado: 'acción de anunciar un hecho futuro.',
     },
     {
-      termino: '<em>Present tense</em>/Tiempo presente',
-      significado: 'Present tense/Tiempo presente',
+      termino: '<em>Weather</em> / Clima',
+      significado:
+        'se define como las condiciones meteorológicas medias que caracterizan a un lugar determinado.​​ Es una síntesis del tiempo atmosférico.',
     },
   ],
   referencias: [
     {
       referencia:
-        'González, A. y Sierra, N. (2008). Retos y posibilidades de la enseñanza del inglés basada en contenidos en la educación superior: visión de los docentes en una experiencia en Colombia. Núcleo, 20(25), p. 125-148. ',
-      link:
-        'http://ve.scielo.org/scielo.php?script=sci_arttext&pid=S0798-97842008000100007&lng=es&tlng=es',
+        'Boyd, C. (2018). El futuro en inglés: ¿Cómo se forma? British Council España. ',
+      link: 'https://www.britishcouncil.es/blog/futuro-ingles',
     },
     {
       referencia:
-        'English Made Easy with Caroline. (2019). Pronunciation for -s Ending Verbs in the Simple Present Tense + Nouns [Video]. YouTube.',
-      link: 'https://youtu.be/671v4Iwg9Ao',
+        'Equipo Académico. (2021). Usa los conditionals más allá del equivalente al hubiera. British Council México. ',
+      link: 'https://www.britishcouncil.org.mx/blog/conditionals',
+    },
+    {
+      referencia:
+        'González, A. y Sierra, N. (2008). Retos y posibilidades de la enseñanza del inglés basada en contenidos en la educación superior: Visión de los docentes en una experiencia en Colombia. Núcleo, 20(25), p. 125-148. ',
+      link:
+        'http://ve.scielo.org/scielo.php?script=sci_arttext&pid=S0798-97842008000100007&lng=es&tlng=es',
     },
   ],
   creditos: {
@@ -227,7 +265,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Yuly Andrea Rey Quiñonez',
+        nombre: 'Blanca Flor Tinoco',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

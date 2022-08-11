@@ -163,9 +163,9 @@
             | Por ejemplo:
             br
             br
-            span.fst-italic.fw-bold You get gray if you mix black and white.
+            span.fst-italic.fw-bold Maddy will pass the exam if she studies more.
             br
-            | Obtienes gris si mezclas negro y blanco.
+            | Maddy pasará el examen si estudia más.
     .tarjeta.rounded-0.margin-n.color-secundario.p-5.mb-5
       .row.justify-content-center.mb-5
         .col-lg-10
