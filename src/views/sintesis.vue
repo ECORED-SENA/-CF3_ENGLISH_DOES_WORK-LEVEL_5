@@ -3,15 +3,18 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p Con el diagrama de actividades se termina la descripción de las tres técnicas usadas para la especificación y el análisis de requisitos, como se pudo analizar cada una de las técnicas nos brinda características para lograr representar gráficamente y de una forma clara, los requisitos que un usuario necesita poder cumplir satisfactoriamente con las solicitudes de los clientes y usuarios, por otro lado se pueden usar todas las técnicas en una especificación y análisis de requisitos si se ve la necesidad.
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    p 
+      span.r-4.fst-italic.fw-normal As a synthesis, the following conceptual map of the theme developed in this component is presented, in which the simple present tense is handled, indicating its function, form and pronunciation, as well as the qualifying adjectives, in attention to their classification in comparatives and superlatives.
+      br
+      br
+      |Como síntesis, se presenta el siguiente mapa conceptual de la temática desarrollada en este componente en el que se maneja el tiempo verbal presente simple, señalando su función, forma y pronunciación, así como también se presentan los adjetivos calificativos, en atención a su clasificación en comparativos y superlativos.
 
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
           img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
       .col-auto
-        a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
