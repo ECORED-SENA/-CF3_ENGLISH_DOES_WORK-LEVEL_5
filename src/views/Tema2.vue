@@ -88,19 +88,19 @@
                 .col-lg-8
                   TarjetaAudio.color-primario.bg-white.mb-3(
                     texto="If you drink too many beers, you get drunk <span class='b-1'>/ Si tomas muchas cervezas, te emborrachas.</span> "
-                    :audio="require('@/assets/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/audios/tema2/1.mp3')"
                     )
                   TarjetaAudio.color-primario.bg-white.mb-3(
-                    texto="If you spend a lot of time in the sun, you tan a lot <span class='b-1'> / Si estás mucho tiempo al sol, te bronceas mucho. </span>"
-                    :audio="require('@/assets/audios/tema1/1.mp3')"
+                    texto="If you spend a lot of time in the sun, you tan a lot <span class='b-1'> / Si estás mucho tiempo al sol, te bronceas mucho. tema2/1.mp3</span>"
+                    :audio="require('@/assets/audios/tema2/2.mp3')"
                     )
                   TarjetaAudio.color-primario.bg-white.mb-3(
                     texto="If you scare a dog, it bites you <span class='b-1'>/ Si asustas a un perro, te muerde.</span> "
-                    :audio="require('@/assets/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/audios/tema2/3.mp3')"
                     )
                   TarjetaAudio.color-primario.bg-white.mb-3(
                     texto="If Ken works all day, he gets tired <span class='b-1'>/ Si Ken trabaja todo el día, se cansa. </span>"
-                    :audio="require('@/assets/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/audios/tema2/4.mp3')"
                     )
               .row
                 p.text-center
@@ -109,19 +109,19 @@
                 .col-lg-8
                   TarjetaAudio.color-primario.bg-white.mb-3(
                     texto="If you put the lettuce in the fridge, it stays fresh  <span class='b-1'>/ Si pones la lechuga en el refrigerador, se mantiene fresca.</span>"
-                    :audio="require('@/assets/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/audios/tema2/5.mp3')"
                     )
                   TarjetaAudio.color-primario.bg-white.mb-3(
                     texto="Charles gets up late if he doesn’t hear the alarm clock <span class='b-1'>  Charles se levanta tarde si no escucha la alarma del reloj. </span>"
-                    :audio="require('@/assets/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/audios/tema2/6.mp3')"
                     )
                   TarjetaAudio.color-primario.bg-white.mb-3(
                     texto="If the cell phone drops, its screen breaks  <span class='b-1'> / Si el celular cae, se rompe su pantalla.</span>"
-                    :audio="require('@/assets/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/audios/tema2/7.mp3')"
                     )
                   TarjetaAudio.color-primario.bg-white.mb-3(
                     texto="The baby cries if he is hungry  <span class='b-1'> / El bebé llora si tiene hambre.</span>"
-                    :audio="require('@/assets/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/audios/tema2/8.mp3')"
                     )
         .col-lg-3: img.d-none.d-lg-block(src='@/assets/curso/temas/65.svg', alt='')
     #t_2_2.titulo-segundo.color-primario(data-aos='fade-right')
@@ -178,23 +178,23 @@
                 .col-lg-8
                   TarjetaAudio.color-primario.bg-white.mb-3(
                     texto="If you come to my house, you will meet my parents <span class='b-1'> / Si vienes a mi casa, conocerás a mis padres.</span> "
-                    :audio="require('@/assets/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/audios/tema2/9.mp3')"
                     )
                   TarjetaAudio.color-primario.bg-white.mb-3(
                     texto="If you don’t study, you won’t pass the exam <span class='b-1'>/ Si no estudias, no pasarás el examen.</span> "
-                    :audio="require('@/assets/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/audios/tema2/10.mp3')"
                     )
                   TarjetaAudio.color-primario.bg-white.mb-3(
                     texto="You will miss the bus if you don’t hurry <span class='b-1'> / Perderás el bus si no te apuras. </span> "
-                    :audio="require('@/assets/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/audios/tema2/11.mp3')"
                     )
                   TarjetaAudio.color-primario.bg-white.mb-3(
                     texto="If Sara buys the fruits, I will make a fruit cocktail <span class='b-1'> / Si Sara compra las frutas, yo haré un cóctel de frutas</span> "
-                    :audio="require('@/assets/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/audios/tema2/12.mp3')"
                     )
                   TarjetaAudio.color-primario.bg-white.mb-3(
                     texto="If Marcus gets home early from work, we’ll go to the movies <span class='b-1'> / Si Marcus llega temprano del trabajo, iremos al cine.</span> "
-                    :audio="require('@/assets/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/audios/tema2/13.mp3')"
                     )
               .row
                 p.text-center
@@ -203,23 +203,23 @@
                 .col-lg-8
                   TarjetaAudio.color-primario.bg-white.mb-3(
                     texto="We will travel by plane if we go to the island <span class='b-1'> / Viajaremos por avión si vamos a la Isla.</span> "
-                    :audio="require('@/assets/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/audios/tema2/14.mp3')"
                     )
                   TarjetaAudio.color-primario.bg-white.mb-3(
                     texto="They will have many clients if they do a good promotion <span class='b-1'> / Ellos tendrán muchos clientes si hacen una buena promoción.</span> "
-                    :audio="require('@/assets/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/audios/tema2/15.mp3')"
                     )
                   TarjetaAudio.color-primario.bg-white.mb-3(
                     texto="If Samuel raises enough Money, he will buy a laptop <span class='b-1'> / Si Samuel reúne dinero suficiente, el comprará una computadora portátil. </span> "
-                    :audio="require('@/assets/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/audios/tema2/16.mp3')"
                     )
                   TarjetaAudio.color-primario.bg-white.mb-3(
                     texto="Dana will be your dance partner if you learn to dance <span class='b-1'> / Dana será tu pareja de baile si aprendes a bailar.</span> "
-                    :audio="require('@/assets/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/audios/tema2/17.mp3')"
                     )
                   TarjetaAudio.color-primario.bg-white.mb-3(
                     texto="If it doesn’t rain, we’ll go for a walk in the park <span class='b-1'> / Si no llueve, iremos a pasear al parque </span> "
-                    :audio="require('@/assets/audios/tema1/1.mp3')"
+                    :audio="require('@/assets/audios/tema2/18.mp3')"
                     )
 
 
