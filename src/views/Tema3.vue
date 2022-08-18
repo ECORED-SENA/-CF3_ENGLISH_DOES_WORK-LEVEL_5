@@ -19,7 +19,11 @@
                 br
                 |Basically, when you are very sure of the fact that it is going to happen, you use the “be going to”, while when you want to indicate less certainty, you use the future simple with the modal verb “will”.
             .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp}")
-              p Traduccion no disponible en el documento 
+              p Al enfocar el futuro, se está expresando que algo no ha sucedido aún, sino que está por suceder, de manera que pueden ocurrir o no. Este tiempo verbal se usa cuando se hacen planes o proyectos a corto, mediano o largo plazo, también cuando se hacen promesas, se toman decisiones espontáneas o cuando se ofrece algo y cuando se hacen predicciones basadas en opiniones de la persona.
+                br
+                |Dependiendo de la certeza de lo que se está diciendo, se puede utilizar el auxiliar <em>“will”</em> o <em>“shall”</em>, o también la estructura <em>“be going to”</em>.
+                br
+                |Básicamente, cuando se está muy seguro del hecho que va a ocurrir, se utiliza el <em>“be going to”</em>, mientras que cuando se quiere indicar una menor certeza se utiliza el futuro simple, con el verbo modal <em>“will”</em>
             a.boton-traduccion(@click='ocultarEsp = !ocultarEsp') Ver traducción
         .col-lg-4.col-6
           img(src='@/assets/curso/temas/73.svg', alt='')
@@ -63,7 +67,7 @@
             .contenedor-traductor__eng
               p.fst-italic As already stated, the future simple, using the auxiliary/modal “will” is used to express an opinion or predict what is going to happen based generally on personal opinions, for which these structures are generally accompanied by expressions such as: “I think”, “maybe”, “perhaps”, among others, that indicate some doubt about whether what is expressed will be a reality or not.
             .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp}")
-              p Traduccion no disponible en el documento 
+              p Como ya se planteó, el future simple, utilizando el auxiliary/modal <em>“will”</em>, sirve para expresar una opinión o predecir lo que va a suceder, basándose generalmente en opiniones personales, por lo cual es común que estas estructuras vayan acompañadas de expresiones como: <em>“I think”</em>, <em>“maybe”</em>, <em>“perhaps”</em>, entre otras, que indican cierta duda sobre si lo que se expresa será una realidad o no.
             a.boton-traduccion(@click='ocultarEsp = !ocultarEsp') Ver traducción
           p.text-center 
             span.fst-italic The structure to use is the following: 
@@ -142,7 +146,7 @@
             p
               span.r-4.fst-italic Used to predict an event
             p 
-              span.fst-italic It is used to predict an event.
+              span.fst-italic It is used to predict an event. 
               | / Se utiliza para predecir un evento.
             .row.justify-content-center.mb-5
               .col-lg-6
@@ -226,7 +230,7 @@
     p.text-center.mb-5 Escuche el siguiente diálogo, en el cual se aplica lo estudiado en el tema:
     Dialogo.color-secundario(:dialogo="dialogo")
       template(#nombre-actividad) Arrastrar y Soltar
-      template(#titulo-actividad) 
+      template(#titulo-actividad) Completar conversación
       template(#descripcion-actividad) Arrastra y suelta el cada una de las palabras en el orden correcto.
     Separador
     #t_3_2.titulo-segundo.color-primario(data-aos='fade-right')
@@ -237,7 +241,8 @@
             .contenedor-traductor__eng
               p.fst-italic The structure “be going to” is used when you are very sure of the fact that it is going to happen, to express a plan or some intentions for the future. Likewise, to express a prediction about the future based on evidence.
             .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp}")
-              p Traduccion no disponible en el documento 
+              p La estructura <em>“be going to”</em> se utiliza cuando se está muy seguro de lo que va a suceder, para expresar un plan o unas intenciones para el futuro. Asimismo, para expresar una predicción sobre el futuro con base en evidencia.
+
             a.boton-traduccion(@click='ocultarEsp = !ocultarEsp') Ver traducción
           p.text-center 
             span.fst-italic In this case, the structure to use is the following: /
@@ -505,7 +510,7 @@
     p.text-center.mb-5 A continuación, escuche el siguiente diálogo, en el cual se aplica lo estudiado en el tema.
     Dialogo.color-secundario(:dialogo="dialogo2")
       template(#nombre-actividad) Arrastrar y Soltar
-      template(#titulo-actividad) 
+      template(#titulo-actividad) Completar la conversación
       template(#descripcion-actividad) Arrastra y suelta el cada una de las palabras en el orden correcto.
               
     

@@ -15,7 +15,10 @@
               br
               |The word “holiday” or “holidays” in British English is used as a person’s vacation. And the expression bank holiday is used to indicate a national holiday. In American English, “holiday” is used to indicate a national holiday (such as Independence Day) and “vacation” to refer to a vacation or free time.
           .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp}")
-            p Traducción no presente en el documento 
+            p Cuando surge un tema tan agradable para todos, es importante manejar el vocabulario adecuado. En este caso, es necesario precisar el uso de "holidays", ya que no tiene un único significado, sino que puede variar según el contexto en el que se utilice.
+              br
+              br
+              |La palabra <em>"holiday"</em> o <em>"holidays"</em> en inglés británico se utiliza para referirse a las vacaciones de una persona. Y la expresión <em>"bank holiday"</em> se utiliza para indicar una fiesta nacional. En inglés americano, <em>"holiday"</em> se utiliza para indicar una fiesta nacional (como el Día de la Independencia) y "vacation" para referirse a unas vacaciones o tiempo libre.
           a.boton-traduccion(@click='ocultarEsp = !ocultarEsp') Ver traducción
       .col-lg-4.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/1.png', alt='')
     p.my-5(data-aos='fade-right') A continuación, puede observar algunos ejemplos para identificar las palabras “holiday” o “holidays” utilizadas en inglés británico y americano:
@@ -752,7 +755,7 @@
                   img(src='@/assets/curso/temas/34.svg', alt='')
     p
       span.r-2.fst-italic.fw-normal Below, there are some useful vocabulary and expressions when you want to talk about the weather, either individually or when going with family or a group of friends. Listen to the audio. 
-      | / Además, se presentan vocabulario y expresiones útiles cuando se quiere hablar acerca del clima, sea en forma individual o cuando se va con la familia o en grupo de amigos. Escuche el audio.
+      | / A continuación, se presentan vocabulario y expresiones útiles cuando se quiere hablar acerca del clima, sea en forma individual o cuando se va con la familia o en grupo de amigos. Escuche el audio.
     p.fw-bold.mb-5.text-center Vocabulario y expresiones del clima
     p.mb-4.text-center
       span.r-1.fst-italic.fw-bold Time expressions - past. / 
@@ -1169,7 +1172,10 @@
               |Below are some expressions of time to use when talking about something that happens in the present or takes place from time to time, that is, with expressions that indicate a frequency. Listen to the audio.
           .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp2}")
             p 
-              span.r-5 Traduccion pendiente en el documento 
+              span.r-5 En este caso, son expresiones de tiempo que se utilizan para indicar hechos o situaciones que ocurren en el presente. En general, se utilizan con tiempos verbales en presente, básicamente con el presente simple. En general, permiten secuenciar los eventos que ocurren en ese día, en esa semana. También, para indicar situaciones o eventos que ocurren de vez en cuando, entre otros usos. Por lo tanto, estas expresiones se van a utilizar cuando se comenten o hablen de eventos en tiempo presente y los verbos se utilicen en presente simple.
+                br
+                br
+                |A continuación se presentan algunas expresiones de tiempo para utilizar cuando se habla de algo que sucede en el presente o que tiene lugar de vez en cuando, es decir, con expresiones que indican una frecuencia. Escuche el audio.
           a.boton-traduccion(@click='ocultarEsp2 = !ocultarEsp2') Ver traducción
         
         img(src='@/assets/curso/temas/54.png' style='width: 398px ').m-auto
@@ -1319,7 +1325,7 @@
                 |Below are some expressions of time to use when talking about something that happens in the future, to express plans in the short, medium, and long term, and also to make predictions 
             .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp2}")
               p 
-                span.r-5 Traduccion no disponible en el documento 
+                span.r-5 Estas expresiones de tiempo se utilizan para expresar hechos o situaciones que aún no han ocurrido, que van a ocurrir luego, después de un tiempo, al otro día, la próxima semana, el próximo mes. Se utilizan para comentar los planes que se quieren realizar, expresar decisiones, dar órdenes, entre otras actividades. Además, se pueden hacer ciertas predicciones de eventos futuros probables o de los que se tiene seguridad, y también se usan para realizar propuestas e invitaciones.
             a.boton-traduccion(@click='ocultarEsp2 = !ocultarEsp2') Ver traducción
         .col-lg-7
           .tarjeta.color-secundario.p-5
@@ -1402,7 +1408,7 @@
               | which means the value of using time in activities that benefit people. This often represents the culture of a country where time is valued as a resource for progress and national development.
           .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp3}")
             p 
-              span.r-5 Traduccion pendiente en el documento 
+              span.r-5 Aunado a lo anterior, se presentan algunas otras expresiones de tiempo o modismos, que sirven para manifestar ideas relacionadas con la importancia que tiene el tiempo para muchas personas, para efectos de aprovechar ese tiempo, pues muchos conocen la frase que señala que <b>“el tiempo es oro”</b>, lo cual quiere significar el valor de utilizar el tiempo en actividades de provecho para las personas. Ello representa muchas veces la cultura de un país donde se valora el tiempo como recurso para el progreso y desarrollo nacional.
           a.boton-traduccion(@click='ocultarEsp3 = !ocultarEsp3') Ver traducción
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -1411,7 +1417,7 @@
           | / Por ejemplo:
         img(src='@/assets/curso/temas/58.svg', alt='').mb-3
     p.text-center 
-      span.fst-italic.fw-bold Idioms
+      span.fst-italic.fw-bold Idioms 
       | / Modismos
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
       .tarjeta.color-primario.p-4

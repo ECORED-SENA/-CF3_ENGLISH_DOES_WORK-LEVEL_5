@@ -160,21 +160,21 @@ export default {
   },
   complementario: [
     {
-      tema: 'Conditionals (Condicionales)',
+      tema: '<em>Conditionals</em> (Condicionales)',
       referencia:
         'Equipo académico. (2021). Usa los conditionals más allá del equivalente al hubiera. British Council México. ',
       tipo: 'Artículo',
       link: 'https://www.britishcouncil.org.mx/blog/conditionals',
     },
     {
-      tema: 'Use of "will" (Uso de “will”)',
+      tema: 'Use of <em>"will"</em> (Uso de <em>“will”</em>)',
       referencia:
         'Rodríguez, K. (2019). Futuro simple en inglés con WILL [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://youtu.be/BWDYnpaqGf8',
     },
     {
-      tema: 'Use of "be going to" (Uso de “be going to”)',
+      tema: 'Use of "<em>be going to</em>" (Uso de “<em>be going to</em>”)',
       referencia:
         'Inglés Fácil - ALEMA. (2019). Futuro Simple En Ingles Usando Be Going To - Oraciones Con Simple Future Tense Lección # 32 [Video]. YouTube.',
       tipo: 'Video',

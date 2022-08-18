@@ -29,7 +29,11 @@
                 br
                 |Next, the first two conditionals are detailed, which are: the conditional “0” (zero) and the conditional 1 (first).fact, several adjectives can be used together. 
             .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp}")
-              p Traduccion no disponible en el documento 
+              p Los condicionales son un tipo de estructuras gramaticales que se utilizan cuando se quiere plantear escenarios reales e imaginarios, por tanto, sirven para expresar planes, deseos, sueños o propósitos. 
+                br
+                |En general, existen varios tipos de condicionales en inglés, los cuales son estructurados de acuerdo con la posibilidad que están expresando y también de acuerdo con los tiempos verbales que se utilizan, que pueden estar en presente, pasado o futuro.
+                br
+                |Básicamente, los condicionales se forman con la partícula <em>“if”</em>, la cual relaciona una acción que depende de otra. De esta manera, se establece que la primera acción es una condición (también conocida como <em>“if clause”</em>) y la siguiente es el resultado (o <em>“main clause”</em>).
             a.boton-traduccion(@click='ocultarEsp = !ocultarEsp') Ver traducción
         .col-lg-4.col-6
           img(src='@/assets/curso/temas/59.png', alt='')
@@ -45,8 +49,9 @@
           span.r-1 (if clause). 
           | That is, both the condition and the result are real events and are in the present tense. It is widely used to express scientific facts or universal truths.
       .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp}")
-        p Traduccion no disponible en el documento 
+        p El condicional cero se forma con dos verbos en presente, uno en la oración principal (<em>main clause</em>) y otro en la subordinada (<em>if clause</em>). Es decir, tanto la condición como el resultado son hechos reales y están en tiempo presente. Es muy utilizado para expresar hechos de carácter científico o verdades universales.
       a.boton-traduccion(@click='ocultarEsp = !ocultarEsp') Ver traducción
+    p <em>Its structure is as follows:</em> / Su estructura es la siguiente:
     TabsB.color-acento-botones.mb-5
       .p-5(titulo="Structure 1" :icono="require('@/assets/curso/temas/63.svg')" style='background-color: #eff3ff')
         .row.justify-content-center
@@ -137,6 +142,7 @@
             p 
               span.r-5 El primer condicional se utiliza para hablar de una posibilidad real en el futuro, es decir, se plantean situaciones reales o posibles, pero no es seguro que ocurran. Básicamente, se proponen escenarios en el futuro, con una alta probabilidad de realización, y serán posibles cuando la condición se cumpla. Por ello, es el condicional indicado para expresar planes, proyectos o para hacer predicciones sobre cualquier asunto particular.
           a.boton-traduccion(@click='ocultarEsp4 = !ocultarEsp4') Ver traducción
+    p <em>Its structure is as follows:</em> / Su estructura es la siguiente:
     TabsB.color-acento-botones.mb-5
       .p-5(titulo="Structure 1" :icono="require('@/assets/curso/temas/63.svg')" style='background-color: #eff3ff')
         .row.justify-content-center
@@ -145,7 +151,7 @@
         .d-flex.justify-content-center.aling-items-center.p-3
           img(src='@/assets/curso/temas/69.svg', alt='' style='width: 123px').me-4
           p
-            span.fst-italic.fw-bold For example: /
+            span.fst-italic.fw-bold For example: / 
             | Por ejemplo:
             br
             br
@@ -159,7 +165,7 @@
         .d-flex.justify-content-center.aling-items-center.p-3
           img(src='@/assets/curso/temas/69.svg', alt='' style='width: 123px').me-4
           p
-            span.fst-italic.fw-bold For example: /
+            span.fst-italic.fw-bold For example: / 
             | Por ejemplo:
             br
             br
