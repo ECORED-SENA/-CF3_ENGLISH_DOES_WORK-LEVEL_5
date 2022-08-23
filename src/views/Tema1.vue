@@ -166,7 +166,7 @@
                     .contenedor-audio.mb-3
                       p.text-center <em><b>To go climbing </b></em> / Ir a escalar
                       TarjetaAudio.color-primario.bg-white.mb-3(
-                      texto="Felix likes <span class='r-4'> to go climbing .</span>"
+                      texto="Felix likes <span class='r-4'> to go climbing.</span>"
                       :audio="require('@/assets/audios/tema1/12.wav')"
                       )
                 .row
@@ -851,7 +851,9 @@
           .tarjeta.color-primario--borde.border-1.p-3.d-flex.flex-column.justify-content-center
             Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/86.wav')").m-auto.mb-2
             p.text-center
-              span.r-1.fst-italic In this place, the wind blows all day. 
+              span.r-1.fst-italic In this place, the 
+                span.r-2 wind 
+                | blows all day. 
       .tarjeta.color-secundario.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
@@ -865,7 +867,8 @@
           .tarjeta.color-primario--borde.border-1.p-3.d-flex.flex-column.justify-content-center
             Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/87.wav')").m-auto.mb-2
             p.text-center
-              span.r-1.fst-italic Looks like this will be a showery day.
+              span.r-1.fst-italic Looks like this will be a 
+                span.r-2 showery day.
       .tarjeta.color-secundario.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
@@ -879,7 +882,8 @@
           .tarjeta.color-primario--borde.border-1.p-3.d-flex.flex-column.justify-content-center
             Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/88.wav')").m-auto.mb-2
             p.text-center
-              span.r-1.fst-italic Karla doesn’t like humid days.
+              span.r-1.fst-italic Karla doesn’t like 
+                span.r-2 humid days.
       .tarjeta.color-secundario.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
@@ -893,7 +897,8 @@
           .tarjeta.color-primario--borde.border-1.p-3.d-flex.flex-column.justify-content-center
             Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/89.wav')").m-auto.mb-2
             p.text-center
-              span.r-1.fst-italic  The child is warm because it is an icy day.
+              span.r-1.fst-italic  The child is warm because it is an 
+                span.r-2 icy day.
       .tarjeta.color-secundario.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
@@ -907,7 +912,8 @@
           .tarjeta.color-primario--borde.border-1.p-3.d-flex.flex-column.justify-content-center
             Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/90.wav')").m-auto.mb-2
             p.text-center
-              span.r-1.fst-italic In this window you can feel a gentle breeze.
+              span.r-1.fst-italic In this window you can feel a gentle 
+                span.r-2 breeze.
       .tarjeta.color-secundario.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
@@ -921,7 +927,9 @@
           .tarjeta.color-primario--borde.border-1.p-3.d-flex.flex-column.justify-content-center
             Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/91.wav')").m-auto.mb-2
             p.text-center
-              span.r-1.fst-italic A strong wind is blowing on the mountain. 
+              span.r-1.fst-italic A 
+                span.r-2 strong wind 
+                | is blowing on the mountain. 
       .tarjeta.color-secundario.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
@@ -935,7 +943,9 @@
           .tarjeta.color-primario--borde.border-1.p-3.d-flex.flex-column.justify-content-center
             Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/92.wav')").m-auto.mb-2
             p.text-center
-              span.r-1.fst-italic After the gale came a great calm in the town. 
+              span.r-1.fst-italic After the 
+                span.r-2 gale 
+                | came a great calm in the town. 
       .tarjeta.color-secundario.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
@@ -949,7 +959,9 @@
           .tarjeta.color-primario--borde.border-1.p-3.d-flex.flex-column.justify-content-center
             Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/93.wav')").m-auto.mb-2
             p.text-center
-              span.r-1.fst-italic The hurricane hit the island. 
+              span.r-1.fst-italic The 
+                span.r-2 hurricane 
+                | hit the island. 
       .tarjeta.color-secundario.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
@@ -963,7 +975,8 @@
           .tarjeta.color-primario--borde.border-1.p-3.d-flex.flex-column.justify-content-center
             Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/94.wav')").m-auto.mb-2
             p.text-center
-              span.r-1.fst-italic In this country there are the four seasons of the year.  
+              span.r-1.fst-italic In this country there are the four 
+                span.r-2 seasons of the year.  
       .tarjeta.color-secundario.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
@@ -977,7 +990,9 @@
           .tarjeta.color-primario--borde.border-1.p-3.d-flex.flex-column.justify-content-center
             Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/95.wav')").m-auto.mb-2
             p.text-center
-              span.r-1.fst-italic  In spring, the plants bloom.
+              span.r-1.fst-italic  In 
+                span.r-2 spring, 
+                | the plants bloom.
       .tarjeta.color-secundario.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
@@ -991,7 +1006,9 @@
           .tarjeta.color-primario--borde.border-1.p-3.d-flex.flex-column.justify-content-center
             Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/96.wav')").m-auto.mb-2
             p.text-center
-              span.r-1.fst-italic In summer, it is very hot. 
+              span.r-1.fst-italic In 
+                span.r-2 summer, 
+                | it is very hot. 
       .tarjeta.color-secundario.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
@@ -1005,7 +1022,9 @@
           .tarjeta.color-primario--borde.border-1.p-3.d-flex.flex-column.justify-content-center
             Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/97.wav')").m-auto.mb-2
             p.text-center
-              span.r-1.fst-italic In winter, a lot of snow falls in this city.
+              span.r-1.fst-italic In 
+                span.r-2 winter, 
+                | a lot of snow falls in this city.
       .tarjeta.color-secundario.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
@@ -1019,7 +1038,9 @@
           .tarjeta.color-primario--borde.border-1.p-3.d-flex.flex-column.justify-content-center
             Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/98.wav')").m-auto.mb-2
             p.text-center
-              span.r-1.fst-italic In autumn, you can see the leaves falling from the trees.
+              span.r-1.fst-italic In 
+                span.r-2 autumn, 
+                | you can see the leaves falling from the trees.
     .row.justify-content-center.mb-5
       .col-lg-9
         .bg-slide__2.d-flex.align-items-center.justify-content-end.p-5
@@ -1069,7 +1090,7 @@
                       .contenedor-audio.mb-3
                           p.text-center <em><b>Ago </b></em> Atrás
                           TarjetaAudio.color-primario.bg-white.mb-3(
-                          texto="She suffered a long time  <span class='r-4'>ago. </span>"
+                          texto="She suffered <span class='r-4'>a long time  ago. </span>"
                           :audio="require('@/assets/audios/tema1/101.wav')"
                           )
                       .contenedor-audio.mb-3
@@ -1106,7 +1127,7 @@
                       .contenedor-audio.mb-3
                           p.text-center <em><b>Last night </b></em> / Anoche
                           TarjetaAudio.color-primario.bg-white.mb-3(
-                          texto="<span class='r-4'>Last night</span> i heard a strange noise outside the house."
+                          texto="<span class='r-4'>Last night</span> I heard a strange noise outside the house."
                           :audio="require('@/assets/audios/tema1/107.wav')"
                           )
                     div
@@ -1193,7 +1214,7 @@
                           br
                           | En este momento
                         TarjetaAudio.color-primario.bg-white.mb-3(
-                        texto="Karla can’t sing at  <span class='r-4'></span> this moment."
+                        texto="Karla can’t sing <span class='r-4'>at   this moment.</span>"
                         :audio="require('@/assets/audios/tema1/116.wav')"
                         )
                     .contenedor-audio.mb-3
@@ -1338,62 +1359,62 @@
                       .contenedor-audio.mb-3
                           p.text-center <em><b>Coming soon </b></em> / Próximamente
                           TarjetaAudio.color-primario.bg-white.mb-3(
-                          texto="Coming soon, they will show that special film."
+                          texto="<span class= 'r-4'>Coming soon</span>, they will show that special film."
                           :audio="require('@/assets/audios/tema1/131.wav')"
                           )
                       .contenedor-audio.mb-3
                           p.text-center <em><b>Eventually  </b></em> / Eventualmente
                           TarjetaAudio.color-primario.bg-white.mb-3(
-                          texto="Eventually, he will be fired from the company."
+                          texto="<span class= 'r-4'>Eventually</span>, he will be fired from the company."
                           :audio="require('@/assets/audios/tema1/132.wav')"
                           )
                       .contenedor-audio.mb-3
                           p.text-center <em><b>Later  </b></em> / Despúes
                           TarjetaAudio.color-primario.bg-white.mb-3(
-                          texto="Sara will go to your house later."
+                          texto="Sara will go to your house <span class= 'r-4'>later.</span>"
                           :audio="require('@/assets/audios/tema1/133.wav')"
                           )
                       .contenedor-audio.mb-3
                           p.text-center <em><b>Next day  </b></em> / El día siguiente
                           TarjetaAudio.color-primario.bg-white.mb-3(
-                          texto="Silvie is going to travel the next day. "
+                          texto="Silvie is going to travel the <span class= 'r-4'>next day.</span> "
                           :audio="require('@/assets/audios/tema1/134.wav')"
                           )
                       .contenedor-audio.mb-3
                           p.text-center <em><b>Next month  </b></em> / El próximo mes
                           TarjetaAudio.color-primario.bg-white.mb-3(
-                          texto="Joan will reap the harvest next month. "
+                          texto="Joan will reap the harvest <span class= 'r-4'>next month.</span> "
                           :audio="require('@/assets/audios/tema1/135.wav')"
                           )
                     div
                       .contenedor-audio.mb-3
                           p.text-center <em><b>Next week  </b></em> / La próxima semana
                           TarjetaAudio.color-primario.bg-white.mb-3(
-                          texto="I will see you next week. "
+                          texto="I will see you <span class= 'r-4'>next week.</span> "
                           :audio="require('@/assets/audios/tema1/136.wav')"
                           )
                       .contenedor-audio.mb-3
                           p.text-center <em><b> Next year  </b></em> / Eventualmente
                           TarjetaAudio.color-primario.bg-white.mb-3(
-                          texto="Susy will return from Japan next year. "
+                          texto="Susy will return from Japan <span class= 'r-4'>next year.</span> "
                           :audio="require('@/assets/audios/tema1/137.wav')"
                           )
                       .contenedor-audio.mb-3
                           p.text-center <em><b>Soon  </b></em> / Pronto 
                           TarjetaAudio.color-primario.bg-white.mb-3(
-                          texto="Camile is going to learn the lesson soon."
+                          texto="Camile is going to learn the lesson <span class= 'r-4'>soon.</span>"
                           :audio="require('@/assets/audios/tema1/138.wav')"
                           )
                       .contenedor-audio.mb-3
                           p.text-center <em><b>Tomorrow  </b></em> / Mañana
                           TarjetaAudio.color-primario.bg-white.mb-3(
-                          texto="Charles will leave the hospital tomorrow."
+                          texto="Charles will leave the hospital <span class= 'r-4'>tomorrow.</span>"
                           :audio="require('@/assets/audios/tema1/139.wav')"
                           )
                       .contenedor-audio.mb-3
                           p.text-center <em><b>Tomorrow night  </b></em> / Mañana en la noche
                           TarjetaAudio.color-primario.bg-white.mb-3(
-                          texto="They will have a date tomorrow night. "
+                          texto="They will have a date <span class= 'r-4'>tomorrow night.</span> "
                           :audio="require('@/assets/audios/tema1/140.wav')"
                           )
     h3 <em>Other expressions of time</em> / Otras expresiones de tiempo

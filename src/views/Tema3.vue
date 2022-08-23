@@ -157,7 +157,7 @@
                 p.mb-0 Bill y Gina se casarán el próximo año.
               .col-lg-6
                 TarjetaAudio.color-primario.bg-white.mb-3(
-                    texto="Next month, they will travel to exico."
+                    texto="Next month, they will travel to Mexico."
                     :audio="require('@/assets/audios/tema3/7.wav')"
                     )
                 p.mb-0 El próximo mes, ellos viajarán a México.
@@ -168,7 +168,7 @@
             p
               span.r-4.fst-italic It is used to express voluntary actions
             p 
-              span.fst-italic It is used to express voluntary actions.
+              span.fst-italic It is used to express voluntary actions. 
               | / Se utiliza para expresar acciones voluntarias.
             .row.justify-content-center.mb-5
               .col-lg-6
@@ -190,7 +190,7 @@
             p
               span.r-4.fst-italic It expresses suggestion through “shall 
             p 
-              span.fst-italic It expresses suggestion through “shall”.
+              span.fst-italic It expresses suggestion through “shall”. 
               | / Expresa sugerencia a través de “shall”.
             .row.justify-content-center.mb-5
               .col-lg-6
@@ -269,7 +269,7 @@
     p.fst-italic
       span.r-4.fw-normal Listen to the audio with some examples to use the future with “be going to”.
     p.text-center
-      span.fst-italic.fw-bold It is used to predict an event 
+      span.fst-italic.fw-bold It is used to predict an event  
       | / Se utiliza para predecir un evento:
     .row.justify-content-center.mb-5
       .col-lg-6
@@ -536,7 +536,7 @@ export default {
       dialogo: [
         {
           personaje: 'Gina',
-          textoIng: 'Hi, Billy. How are you going?',
+          textoIng: 'Hi, Billy. How is it going?',
           textoEsp: 'Yo necesito el libro de biologia y las diapositivas.',
           audio: require('@/assets/audios/a2/1.wav'),
         },
@@ -556,7 +556,7 @@ export default {
         },
         {
           personaje: 'Billy',
-          textoIng: 'Excellent! You deserve it!.... And *** you go?',
+          textoIng: 'Excellent! You deserve it!... And *** you go?',
           textoEsp: '',
           audio: require('@/assets/audios/a2/4.mp3'),
           palabra: 'where will',
@@ -599,7 +599,7 @@ export default {
         },
         {
           personaje: 'Daugther',
-          textoIng: 'Oh, daddy, I´m not sure yet.',
+          textoIng: 'Oh, daddy, I’m not sure yet.',
           textoEsp: '',
           audio: require('@/assets/audios/a1/2.wav'),
         },
@@ -620,7 +620,7 @@ export default {
         },
         {
           personaje: 'Father',
-          textoIng: 'Ah! Okay, *** going to be a teacher!',
+          textoIng: 'Oh! Okay, *** going to be a teacher!',
           textoEsp: '',
           audio: require('@/assets/audios/a1/5.mp3'),
           palabra: 'you are',
