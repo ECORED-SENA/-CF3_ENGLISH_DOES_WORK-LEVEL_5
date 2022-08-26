@@ -330,7 +330,7 @@
     p.text-center
       span.r-1.fst-italic For example 
       | / Por ejemplo: 
-    SlyderF.mb-5(columnas="col-lg-6 col-xl-3")
+    SlyderF.mb-5.slyder-modificado(columnas="col-lg-6 col-xl-3")
       .tarjeta.color-secundario.p-4.h-100
         .row.justify-content-center.mb-3
           .col-8
@@ -509,11 +509,33 @@
               span.r-4.fst-italic You will learn English quickly!...That’s my prediction to you!
             p ¡Tú aprenderás inglés rápidamente!...¡Esa es mi predicción para ti!
     p.text-center.mb-5 A continuación, escuche el siguiente diálogo, en el cual se aplica lo estudiado en el tema.
-    Dialogo.color-secundario(:dialogo="dialogo2")
+    Dialogo.color-secundario(:dialogo="dialogo2").mb-5
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) Completar la conversación
       template(#descripcion-actividad) Arrastra y suelta el cada una de las palabras en el orden correcto.
-              
+    .titulo-segundo.color-primario(data-aos='fade-right')
+      h2 Actividad Didactica 
+    .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
+      .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
+        .tarjeta.h-100.d-flex.align-items-center.p-4
+          figure
+            img(src="@/assets/template/completar-espacios.svg", alt="Texto que describa la imagen")
+      .col-12.col-md-8.col-lg-9
+        .titulo-segundo
+          h2 #[i Things I am going to do] / Cosas que voy a hacer
+        p.mb-4 #[i Identify the corresponding verbal structure to complete the sentences in the future tense.]
+          br
+          br
+          |Identificar la estructura verbal correspondiente para completar las oraciones en tiempo futuro.
+
+        .tarjeta.actividad.p-3
+          .row.justify-content-around.align-items-center            
+            .col-sm.mb-3.mb-sm-0
+              p.fw-bold.mb-0 Completar los espacios vacios. 
+            .col-auto
+              a.boton.boton--b(:href="obtenerLink('/actividades/a1/story.html')" target="_blank")
+                span Realizar
+                i.fas.fa-puzzle-piece
     
 </template>
 
@@ -648,4 +670,8 @@ export default {
 <style lang="sass">
 .tabs-c
   background-color: #fff7da !important
+.slyder-modificado
+  align-items: flex-start !important
+  .horizontal-scroll row
+    align-items:
 </style>
