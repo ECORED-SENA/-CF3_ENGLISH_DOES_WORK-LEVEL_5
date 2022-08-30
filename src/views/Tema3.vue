@@ -439,7 +439,7 @@
       br
       | Cuando se hacen predicciones, suposiciones o deducciones sobre un hecho futuro, se emplea el futuro simple con el auxiliar <em>“will”</em>.
     p
-      span.fst-italic For example: /
+      span.fst-italic For example: / 
       | Por ejemplo: 
     .tarjeta.margin-n.rounded-0.mb-3.p-5(style='background-color: #fff0b5')
       .row.justify-content-center.mb-5
@@ -504,7 +504,7 @@
                 .col-lg-3
                   img(src='@/assets/curso/temas/107.svg' alt='AvatarTop')
     p.text-center
-      span.fst-italic A prediction to you: /
+      span.fst-italic A prediction to you: / 
       | Una predicción para ti:
     .row.justify-content-center.mb-5
       .col-lg-5
