@@ -5,7 +5,7 @@
     .titulo-principal.color-primario
       .titulo-principal__numero
         span 2
-      h1 <em>Conditionals</em> (Condicionales)
+      h1 <em>Conditionals</em> / (Condicionales)
     .tarjeta.rounded-0.margin-n.p-4.mb-5(style='background-color: #ff9fa3')
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-8
@@ -117,7 +117,7 @@
                     :audio="require('@/assets/audios/tema2/5.wav')"
                     )
                   TarjetaAudio.color-primario.bg-white.mb-3(
-                    texto="Charles gets up late if he doesn’t hear the alarm clock <span class='b-1'>  Charles se levanta tarde si no escucha la alarma del reloj. </span>"
+                    texto="Charles gets up late if he doesn’t hear the alarm clock / <span class='b-1'>  Charles se levanta tarde si no escucha la alarma del reloj. </span>"
                     :audio="require('@/assets/audios/tema2/6.wav')"
                     )
                   TarjetaAudio.color-primario.bg-white.mb-3(

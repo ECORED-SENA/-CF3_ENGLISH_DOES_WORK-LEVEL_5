@@ -205,12 +205,12 @@
                     :audio="require('@/assets/audios/tema3/11.wav')"
                     )
                 p.mb-0 Nosotros iremos al hospital primero.
-      .p-4(titulo="It is used to express voluntary actions." style='background-color: #fff7da')
+      .p-4(titulo="It expresses orders, requests and promises" style='background-color: #fff7da')
         .row.justify-content-center
           .col-lg-3: img(src='@/assets/curso/temas/88.svg', alt='')
           .col-lg-7
             p
-              span.r-4.fst-italic It is used to express voluntary actions.
+              span.r-4.fst-italic It expresses orders, requests and promises.
             p 
               span.fst-italic It expresses orders, requests and promises.
               |  / Expresa órdenes, peticiones y promesas.
@@ -231,7 +231,7 @@
     Dialogo.color-secundario(:dialogo="dialogo")
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) Completar conversación
-      template(#descripcion-actividad) Arrastra y suelta el cada una de las palabras en el orden correcto.
+      template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
     Separador
     #t_3_2.titulo-segundo.color-primario(data-aos='fade-right')
       h2 3.2   <em>Use of “be going to”.</em> / (Uso de “be going to”)
@@ -260,7 +260,7 @@
                         p.mb-0 
                           span.r-1.fst-italic Alice 
                           spna.r-2.fst-italic is 
-                          span.f-3.p-1.fw-bold.rounded-3 goin to 
+                          span.f-3.p-1.fw-bold.rounded-3 going to 
                           span.r-2.fst-italic &nbsp read your letter.
                           br
                           | Alice va a leer tu carta.
@@ -289,7 +289,7 @@
             :audio="require('@/assets/audios/tema3/16.wav')"
             )
           TarjetaAudio.color-primario.bg-white.mb-3(
-            texto="Samantha is going to sing with the church choir  <span class='b-1'>Samantha va a cantar con el coro de la iglesia. </span> "
+            texto="Samantha is going to sing with the church choir  / <span class='b-1'>Samantha va a cantar con el coro de la iglesia. </span> "
             :audio="require('@/assets/audios/tema3/17.wav')"
             )
           TarjetaAudio.color-primario.bg-white.mb-3(
@@ -359,7 +359,7 @@
           .tarjeta.color-primario--borde.border-1.p-3.d-flex.flex-column.justify-content-center
             Audio.color-primario.d-block(:audio="require('@/assets/audios/tema3/26.wav')").m-auto.mb-2
             p.text-center
-              span.r-1.fst-italic Next week, I’m going to present my resumé to that company.
+              span.r-1.fst-italic Next week, I’m going to present my resume to that company.
           p.text-center La próxima semana, voy a introducir mi currículo a esa empresa.
       .tarjeta.color-secundario.p-4.h-100
         .row.justify-content-center.mb-3
@@ -438,6 +438,9 @@
       span.r-2.fst-italic.fw-normal When making predictions, assumptions or deductions about a future event, the simple future is used	with the auxiliary “will”.
       br
       | Cuando se hacen predicciones, suposiciones o deducciones sobre un hecho futuro, se emplea el futuro simple con el auxiliar <em>“will”</em>.
+    p
+      span.fst-italic For example: /
+      | Por ejemplo: 
     .tarjeta.margin-n.rounded-0.mb-3.p-5(style='background-color: #fff0b5')
       .row.justify-content-center.mb-5
         .col-lg-3
@@ -500,6 +503,9 @@
 
                 .col-lg-3
                   img(src='@/assets/curso/temas/107.svg' alt='AvatarTop')
+    p.text-center
+      span.fst-italic A prediction to you: /
+      | Una predicción para ti:
     .row.justify-content-center.mb-5
       .col-lg-5
         .tarjeta.color-acento-contenido.p-4.d-flex.align-items-center.justify-content-center
@@ -512,9 +518,9 @@
     Dialogo.color-secundario(:dialogo="dialogo2").mb-5
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) Completar la conversación
-      template(#descripcion-actividad) Arrastra y suelta el cada una de las palabras en el orden correcto.
+      template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
     .titulo-segundo.color-primario(data-aos='fade-right')
-      h2 Actividad Didactica 
+      h2 Actividad Didáctica 
     .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.h-100.d-flex.align-items-center.p-4

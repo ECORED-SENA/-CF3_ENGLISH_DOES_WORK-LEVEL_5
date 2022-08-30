@@ -34,28 +34,28 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Holidays and weather (Las vacaciones y el clima)',
+        titulo: 'Holidays and weather / (Las vacaciones y el clima)',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
             titulo:
-              '<em>Time expressions - past</em>  (Expresiones de tiempo - pasado)',
+              '<em>Time expressions - past</em>  / (Expresiones de tiempo - pasado)',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
             titulo:
-              '<em>Time expressions - present</em> (Expresiones de tiempo - presente)',
+              '<em>Time expressions - present</em> / (Expresiones de tiempo - presente)',
             hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
             titulo:
-              '<em>Time expressions - future</em> (Expresiones de tiempo - futuro)',
+              '<em>Time expressions - future</em> / (Expresiones de tiempo - futuro)',
             hash: 't_1_3',
           },
         ],
@@ -65,21 +65,21 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Conditionals (Condicionales)',
+        titulo: 'Conditionals / (Condicionales)',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
             titulo:
-              '<em>Structure of the zero (0) conditional</em> (Estructura del zero (0) condicional)',
+              '<em>Structure of the zero (0) conditional</em> / (Estructura del zero (0) condicional)',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
             titulo:
-              '<em>Structure of the first (I) conditional</em> (Estructura del primer (I) condicional)',
+              '<em>Structure of the first (I) conditional</em> / (Estructura del primer (I) condicional)',
             hash: 't_2_2',
           },
         ],
@@ -88,31 +88,32 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: '<em>Verb tense: future</em> (Tiempo verbal: futuro)',
+        titulo: '<em>Verb tense: future</em> / (Tiempo verbal: futuro)',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: '<em>Use of "will"</em> (Uso de “will”)',
+            titulo: '<em>Use of "will"</em> / (Uso de “will”)',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: ' <em>Use of "be going to"</em> (Uso de “be going to”)',
+            titulo: ' <em>Use of "be going to"</em> / (Uso de “be going to”)',
             hash: 't_3_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.3',
-            titulo: '<em>Formulation of plans</em> (Formulación de planes)',
+            titulo: '<em>Formulation of plans</em> / (Formulación de planes)',
             hash: 't_3_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.4',
-            titulo: '<em>Making predictions</em> (Realización de predicciones)',
+            titulo:
+              '<em>Making predictions</em> / (Realización de predicciones)',
             hash: 't_3_4',
           },
         ],
