@@ -43,7 +43,7 @@
                   | / Joe va de vacaciones.
                   br
                   span.r-1.fst-italic You have holidays in August. 
-                  | / Tú tienes vacaciones en Agosto.
+                  | / Tú tienes vacaciones en agosto.
                   br
                   span.r-1.fst-italic Today is a bank holiday in this country. 
                   | / Hoy es día feriado en este país.
@@ -55,7 +55,7 @@
           .card-flag__flag
             .tarjeta.color-acento-contenido.p-5.mb-5
               img(src='@/assets/curso/temas/4.svg', alt=' ' style='width: 67px').mb-4.m-auto
-              p.fst-italic.mb-0.fw-bold  “Holidays” in British English
+              p.fst-italic.mb-0.fw-bold  “Holidays” in American English
           .card-flag__information.p-4.rounded-3
             .row.justify-content-center.mt-5
               .col-lg-3
@@ -67,7 +67,7 @@
                   br
 
                   span.r-1.fst-italic July 4th is a national holiday in The United States 
-                  |  / El 4 de Julio es un día de fiesta nacional en los Estados Unidos.
+                  |  / El 4 de julio es un día de fiesta nacional en los Estados Unidos.
 
                   br
                   span.r-1.fst-italic Mary has fifteen days of vacation
@@ -650,7 +650,7 @@
                   .contenedor-audio.mb-3
                       p.text-center <em><b>Sunblock  </b></em> / Filtro solar
                       TarjetaAudio.color-primario.bg-white.mb-3(
-                      texto="You should put on a lot of sunscreen before lying in the sun."
+                      texto="You should put on a lot of <span class='r-4'>sunscreen</span> before lying in the sun."
                       :audio="require('@/assets/audios/tema1/66.wav')"
                       )
                   .contenedor-audio.mb-3
@@ -742,7 +742,7 @@
                   .contenedor-audio.mb-3
                       p.text-center <em><b>Tourist </b></em>  / Turista
                       TarjetaAudio.color-primario.bg-white.mb-3(
-                      texto="A tourist didn’t return to the hotel. "
+                      texto="A <span class='r-4'>tourist</span> didn’t return to the hotel. "
                       :audio="require('@/assets/audios/tema1/79.wav')"
                       )
                   .contenedor-audio.mb-3
@@ -1049,7 +1049,7 @@
               br
               |¡Disfrutemos las vacaciones!
     #t_1_1.titulo-segundo.color-primario(data-aos='fade-right')
-      h2 1.1 <em>Time expressions - past</em>  (Expresiones de tiempo - pasado)
+      h2 1.1 <em>Time expressions - past /</em>  (Expresiones de tiempo - pasado)
     .tarjeta.rounded-0.margin-n.p-5(style='background-color: #ffbfc1')
       .row.justify-content-center.mb-3
         .col-lg-5
@@ -1347,6 +1347,10 @@
             .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp2}")
               p 
                 span.r-5 Estas expresiones de tiempo se utilizan para expresar hechos o situaciones que aún no han ocurrido, que van a ocurrir luego, después de un tiempo, al otro día, la próxima semana, el próximo mes. Se utilizan para comentar los planes que se quieren realizar, expresar decisiones, dar órdenes, entre otras actividades. Además, se pueden hacer ciertas predicciones de eventos futuros probables o de los que se tiene seguridad, y también se usan para realizar propuestas e invitaciones.
+                  br
+                  br
+                  | Seguidamente se presentan algunas expresiones de tiempo para utilizar cuando se habla de algo que sucederá en el futuro, para expresar planes a corto, mediano y largo plazo, y también para hacer predicciones.
+
             a.boton-traduccion(@click='ocultarEsp2 = !ocultarEsp2') Ver traducción
         .col-lg-7
           .tarjeta.color-secundario.p-5
